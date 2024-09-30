@@ -29,23 +29,18 @@ function ProfPerso() {
     if (pro.style.display === "block")  {
       pro.style.display = "none";
       PP.style.background = ""
-
-      FO.style.background = "rgb(255, 255, 255)"
-      EXP.style.background = "rgb(255, 255, 255)"
-      COMP.style.background = "rgb(255, 255, 255)"
-      L.style.background = "rgb(255, 255, 255)"
-      CINT.style.background = "rgb(255, 255, 255)"
-      CONT.style.background = "rgb(255, 255, 255)"
     } 
     else {
       pro.style.display = "block";
+      PP.style.background = "rgb(190, 190, 190)"
+        
       FO.style.background = "rgb(255, 255, 255)"
       EXP.style.background = "rgb(255, 255, 255)"
       COMP.style.background = "rgb(255, 255, 255)"
       L.style.background = "rgb(255, 255, 255)"
       CINT.style.background = "rgb(255, 255, 255)"
       CONT.style.background = "rgb(255, 255, 255)"
-      PP.style.background = "rgb(190, 190, 190)"
+        
       form.style.display = "none";
       xp.style.display = "none";
       sk.style.display = "none";
@@ -60,15 +55,17 @@ function Format() {
         form.style.display = "none";
         FO.style.background = ""
 
+      } else {
+        form.style.display = "block";
+        FO.style.background = "rgb(190, 190, 190)"
+          
         PP.style.background = "rgb(255, 255, 255)"
         EXP.style.background = "rgb(255, 255, 255)"
         COMP.style.background = "rgb(255, 255, 255)"
         L.style.background = "rgb(255, 255, 255)"
         CINT.style.background = "rgb(255, 255, 255)"
         CONT.style.background = "rgb(255, 255, 255)"
-      } else {
-        form.style.display = "block";
-        FO.style.background = "rgb(190, 190, 190)"
+          
         pro.style.display = "none";
         xp.style.display = "none";
         sk.style.display = "none";
@@ -83,15 +80,18 @@ function XpProf() {
         xp.style.display = "none";
         EXP.style.background = ""
 
+        
+      } else {
+        xp.style.display = "block";
+        EXP.style.background = "rgb(190, 190, 190)"
+          
         PP.style.background = "rgb(255, 255, 255)"
         FO.style.background = "rgb(255, 255, 255)"
         COMP.style.background = "rgb(255, 255, 255)"
         L.style.background = "rgb(255, 255, 255)"
         CINT.style.background = "rgb(255, 255, 255)"
         CONT.style.background = "rgb(255, 255, 255)"
-      } else {
-        xp.style.display = "block";
-        EXP.style.background = "rgb(190, 190, 190)"
+          
         pro.style.display = "none";
         form.style.display = "none";
         sk.style.display = "none";
@@ -106,15 +106,17 @@ function Comp() {
         sk.style.display = "none";
         COMP.style.background = ""
 
+      } else {
+        sk.style.display = "block";
+        COMP.style.background = "rgb(190, 190, 190)"
+          
         PP.style.background = "rgb(255, 255, 255)"
         FO.style.background = "rgb(255, 255, 255)"
         EXP.style.background = "rgb(255, 255, 255)"
         L.style.background = "rgb(255, 255, 255)"
         CINT.style.background = "rgb(255, 255, 255)"
         CONT.style.background = "rgb(255, 255, 255)"
-      } else {
-        sk.style.display = "block";
-        COMP.style.background = "rgb(190, 190, 190)"
+          
         pro.style.display = "none";
         form.style.display = "none";
         xp.style.display = "none";
@@ -129,16 +131,18 @@ function Lang() {
         lan.style.display = "none";
         L.style.background = ""
 
+      } 
+      else {
+        lan.style.display = "block";
+        L.style.background = "rgb(190, 190, 190)"
+          
         PP.style.background = "rgb(255, 255, 255)"
         FO.style.background = "rgb(255, 255, 255)"
         EXP.style.background = "rgb(255, 255, 255)"
         COMP.style.background = "rgb(255, 255, 255)"
         CINT.style.background = "rgb(255, 255, 255)"
         CONT.style.background = "rgb(255, 255, 255)"
-      } 
-      else {
-        lan.style.display = "block";
-        L.style.background = "rgb(190, 190, 190)"
+          
         pro.style.display = "none";
         form.style.display = "none";
         xp.style.display = "none";
@@ -153,15 +157,17 @@ function CenterInt() {
         inter.style.display = "none";
         CINT.style.background = ""
 
+      } else {
+        inter.style.display = "block";
+        CINT.style.background = "rgb(190, 190, 190)"
+          
         PP.style.background = "rgb(255, 255, 255)"
         FO.style.background = "rgb(255, 255, 255)"
         EXP.style.background = "rgb(255, 255, 255)"
         COMP.style.background = "rgb(255, 255, 255)"
         L.style.background = "rgb(255, 255, 255)"
         CONT.style.background = "rgb(255, 255, 255)"
-      } else {
-        inter.style.display = "block";
-        CINT.style.background = "rgb(190, 190, 190)"
+          
         pro.style.display = "none";
         form.style.display = "none";
         xp.style.display = "none";
@@ -177,15 +183,18 @@ function Contact() {
     cont.style.display = "none";
     CONT.style.background = ""
 
+    
+  } else {
+    cont.style.display = "block";
+    CONT.style.background = "rgb(190, 190, 190)"
+
     PP.style.background = "rgb(255, 255, 255)"
     FO.style.background = "rgb(255, 255, 255)"
     EXP.style.background = "rgb(255, 255, 255)"
     COMP.style.background = "rgb(255, 255, 255)"
     L.style.background = "rgb(255, 255, 255)"
     CINT.style.background = "rgb(255, 255, 255)"
-  } else {
-    cont.style.display = "block";
-    CONT.style.background = "rgb(190, 190, 190)"
+    
     pro.style.display = "none";
     form.style.display = "none";
     xp.style.display = "none";
